@@ -59,7 +59,7 @@ const Student& Student::operator+=(float g) {
 	return *this;
 }
 
- Student & Student::operator-=(char x)
+Student & Student::operator-=(char x)
 {
 	this->name.erase(std::remove(this->name.begin(), this->name.end(), x), this->name.end());//do not try to  understand it removes the letters given
 	//<< >> 
