@@ -18,6 +18,7 @@ int main() {
 
 	//how can you store a honda in a car???
 	//amy child can be stored in it parents pointer BUT with the limit being on its parents functions
+	
 	Car* honda = &Honda();///get the adddress of the new honda and store it in car pointer
 	Car* hondaVan = &HondaSoccerVan();
 

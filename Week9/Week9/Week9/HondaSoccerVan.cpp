@@ -4,7 +4,7 @@
 
 string HondaSoccerVan::carName()
 {
-	return Car::carName();
+	return "Honda Soccer Van";
 }
 
 int HondaSoccerVan::numberOfCylinders()
